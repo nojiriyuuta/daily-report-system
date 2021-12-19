@@ -81,7 +81,7 @@ public class ReportConverter {
         r.setCreatedAt(rv.getCreatedAt());
         r.setUpdatedAt(rv.getUpdatedAt());
         r.setBegin(rv.getBegin());      //追記
-        r.setBegin(rv.getFinish());       //追記
+        r.setFinish(rv.getFinish());       //追記
 
     }
 
